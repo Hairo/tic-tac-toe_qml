@@ -1,0 +1,19 @@
+Source: tic-tac-toe-qml
+Section: games
+Priority: extra
+Maintainer:  Hairo R. Carela ((lp)) <hairocr8@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Vcs-Bzr: https://code.launchpad.net/~hairocr8/+junk/Tic-Tac-Toe
+
+Package: tic-tac-toe-qml
+Architecture: all
+Depends:${misc:Depends},
+        qtdeclarative5-localstorage-plugin,
+        qtdeclarative5-qtquick2-plugin,
+        qtdeclarative5-ubuntu-ui-toolkit-plugin|qt-components-ubuntu,
+        ${shlibs:Depends},
+        qmlscene
+Description: Port to the well known game tic-tac-toe
+ Port of the tic-tac-toe game with 1 and 2 players mode, AI for 1 player mode, 
+ animations and more.

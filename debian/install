@@ -1,0 +1,5 @@
+images/* /usr/share/tic-tac-toe-qml/images
+items/* /usr/share/tic-tac-toe-qml/items
+js/* /usr/share/tic-tac-toe-qml/js
+Tic-Tac-Toe.qml /usr/share/tic-tac-toe-qml
+tic-tac-toe-qml.desktop /usr/share/applications
